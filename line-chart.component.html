@@ -1,0 +1,24 @@
+<div ngDraggable  ngResizable [handle]="DemoHandle" style="border: 2px solid black; height: 200px; width: 50%;">
+    <canvas #DemoHandle id="mybarChart"  class="resize-action" ></canvas>
+</div>
+
+<br>
+
+<div ngDraggable  ngResizable style="border: 2px solid black" class="pieChartCss" >
+    <canvas id="mylineChart"  class="resize-action" style="height: 100px; width: 50%;"></canvas>
+</div>
+
+<br>
+
+<div ngDraggable  ngResizable class="card border-info mb-3" style="max-width: 20rem; width: 7rem;">
+    <div class="card-header centre">Total</div>
+    <div class="card-body">
+      <p class="card-text">{{totalSales}}</p>
+    </div>
+  </div>
+
+  <br>
+
+  <div ngDraggable  ngResizable class="pieChartCss" style=" border: 2px solid black" >
+    <canvas id="mypieChart"  class="resize-action" style="width:100px !important; height:60px !important;"></canvas>
+</div>
