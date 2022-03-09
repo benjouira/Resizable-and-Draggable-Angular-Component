@@ -19,7 +19,7 @@ const routes: Routes = [
   {path:"pipe", component:PipeComponent},
   {path:"form", component:FormTestComponent},
   {path:"charts", component:LineChartComponent},
-  {path:"**", component:UserComponent}
+  
 ];
 
 @NgModule({
